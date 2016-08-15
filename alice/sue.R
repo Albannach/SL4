@@ -1,0 +1,1 @@
+sue = function(j) {j*j}

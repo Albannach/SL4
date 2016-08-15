@@ -1,0 +1,1 @@
+bob = function(i){6*i}
