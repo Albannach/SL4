@@ -57,7 +57,7 @@ ggplot(pulseRate, aes(Weight, Pulse2))+geom_point()
 
 *** =fullwidth
 
---- .class #id
+--- .intro #id
 
 ### Enjoy!
 
