@@ -10,22 +10,27 @@ widgets     : []            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 
---- .class #id 
+--- .normally #intro1
 
-## The dataset
+## The test dataset
 
-<p style="font-size:20px">The data set is sourced from "OzDASL" the Australasian Data and Story Library, and consists of set of observations related to a subjects pulse rate before and after strenuous exercise.  Various aspects of the subjects life style are recorded along with the data relatred to the pulse readings. The data is fully documented at "http://www.statsci.org/data/oz/ms212.html". The first few rows of the data are shown below.</p>
+The data set initially loaded is sourced from "OzDASL" the "Australasian Data and Story Library", and consists of set of observations related to a subjects pulse rate before and after strenuous exercise.  Various aspects of the subjects life style are recorded along with the data related to the pulse readings. 
+The first few rows of the data are shown below.
 
 ```{r loading, echo=FALSE, message=FALSE, warning=FALSE}
 library(data.table)
 library(ggplot2)
 pulseRate <- fread('http://www.statsci.org/data/oz/ms212.txt')
-head(pulseRate, n=2)
+head(pulseRate, n=7)
 ```
 
-<p style="font-size:20px">The intention is to provide an application that allows the user to plot various aspects of the data. The structure of the data is shown below.</p>
+--- .normally #intro2
 
-```{r, echo=FALSE}
+## The test dataset structure
+
+The intention is to provide an application that allows the user to explore, through plotting, various aspects of the data. The structure of the data is shown below. The data is fully documented at "http://www.statsci.org/data/oz/ms212.html".
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
 str(pulseRate)
 ```
 
@@ -56,10 +61,3 @@ ggplot(pulseRate, aes(Weight, Pulse2))+geom_point()
 ```
 
 *** =fullwidth
-
---- .intro #id
-
-### Enjoy!
-
-Please use the application to explore various aspects of the Pulse Rate dataset! And others....
-

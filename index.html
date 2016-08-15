@@ -42,19 +42,34 @@
     
 
     <!-- SLIDES -->
-    <slide class="class" id="id" style="background:;">
+    <slide class="normally" id="intro1" style="background:;">
   <hgroup>
-    <h2>The dataset</h2>
+    <h2>The test dataset</h2>
   </hgroup>
   <article data-timings="">
-    <p style="font-size:20px">The data set is sourced from "OzDASL" the Australasian Data and Story Library, and consists of set of observations related to a subjects pulse rate before and after strenuous exercise.  Various aspects of the subjects life style are recorded along with the data relatred to the pulse readings. The data is fully documented at "http://www.statsci.org/data/oz/ms212.html". The first few rows of the data are shown below.</p>
+    <p>The data set initially loaded is sourced from &quot;OzDASL&quot; the &quot;Australasian Data and Story Library&quot;, and consists of set of observations related to a subjects pulse rate before and after strenuous exercise.  Various aspects of the subjects life style are recorded along with the data related to the pulse readings. 
+The first few rows of the data are shown below.</p>
 
 <pre><code>##    Height Weight Age Gender Smokes Alcohol Exercise Ran Pulse1 Pulse2 Year
 ## 1:    173     57  18      2      2       1        2   2     86     88   93
 ## 2:    179     58  19      2      2       1        2   1     82    150   93
+## 3:    167     62  18      2      2       1        1   1     96    176   93
+## 4:    195     84  18      1      2       1        1   2     71     73   93
+## 5:    173     64  18      2      2       1        3   2     90     88   93
+## 6:    184     74  22      1      2       1        3   1     78    141   93
+## 7:    162     57  20      2      2       1        2   2     68     72   93
 </code></pre>
 
-<p style="font-size:20px">The intention is to provide an application that allows the user to plot various aspects of the data. The structure of the data is shown below.</p>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="normally" id="intro2" style="background:;">
+  <hgroup>
+    <h2>The test dataset structure</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The intention is to provide an application that allows the user to explore, through plotting, various aspects of the data. The structure of the data is shown below. The data is fully documented at &quot;<a href="http://www.statsci.org/data/oz/ms212.html">http://www.statsci.org/data/oz/ms212.html</a>&quot;.</p>
 
 <pre><code>## Classes &#39;data.table&#39; and &#39;data.frame&#39;:   110 obs. of  11 variables:
 ##  $ Height  : int  173 179 167 195 173 184 162 169 164 168 ...
@@ -75,7 +90,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="class" id="slide-2" style="background:;">
+<slide class="class" id="slide-3" style="background:;">
   <hgroup>
     <h2>The central question...</h2>
   </hgroup>
@@ -88,7 +103,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-3" style="background:;">
+<slide class="" id="slide-4" style="background:;">
   <hgroup>
     <h3>Some example plots.</h3>
   </hgroup>
@@ -110,42 +125,31 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="intro" id="id" style="background:;">
-  <hgroup>
-    <h3>Enjoy!</h3>
-  </hgroup>
-  <article data-timings="">
-    <p>Please use the application to explore various aspects of the Pulse Rate dataset! And others....</p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
     <slide class="backdrop"></slide>
   </slides>
   <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='The dataset'>
+        data-slide=1 title='The test dataset'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='The central question...'>
+        data-slide=2 title='The test dataset structure'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Some example plots.'>
+        data-slide=3 title='The central question...'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Enjoy!'>
+        data-slide=4 title='Some example plots.'>
          4
       </a>
     </li>

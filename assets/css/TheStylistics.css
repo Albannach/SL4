@@ -1,3 +1,10 @@
 .intro {
     background-color: yellow;
 }
+p.normally {
+    font-size: 10px;
+    font: verdana;
+}
+.headOutput {
+    font-size: 20px;
+}
