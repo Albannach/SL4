@@ -61,5 +61,5 @@ ggplot(pulseRate, aes(Weight, Pulse2))+geom_point()
 
 ### Enjoy!
 
-Please use the application to explore various aspects of the Pulse Rate dataset!
+Please use the application to explore various aspects of the Pulse Rate dataset! And others....
 
