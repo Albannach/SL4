@@ -1,5 +1,5 @@
 ---
-title       : The Pulse Rates dataset (and others..)
+title       : The Pulse Rates dataset
 subtitle    : Lifestyle and pulse rate
 author      : Colin N. Paterson
 job         : Software
